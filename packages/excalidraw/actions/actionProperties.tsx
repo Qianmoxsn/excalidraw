@@ -775,6 +775,16 @@ export const actionChangeFontFamily = register({
         testId: "font-family-virgil",
       },
       {
+        value: FONT_FAMILY.Tokyo,
+        text: t("labels.handDrawn"),
+        icon: FreedrawIcon,
+      },
+      {
+        value: FONT_FAMILY.Ziyu,
+        text: t("labels.handDrawn"),
+        icon: FreedrawIcon,
+      },
+      {
         value: FONT_FAMILY.Helvetica,
         text: t("labels.normal"),
         icon: FontFamilyNormalIcon,
